@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
 *,
 *::after,
 *::before {
@@ -8,6 +10,7 @@
 
 body {
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  /* background: pink; */
   background-position: center;
   height: 100vh;
   font-family: "Lato", sans-serif;
@@ -18,13 +21,15 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0 1rem;
+  font-family: "Overpass", sans-serif;
 }
 main {
   text-align: center;
   height: max-content;
-  width: max-content;
+  width: 400px;
   text-align: center;
-  background-color: #ffffff9c;
+  /* background-color: #ffffff9c; */
+  background-color: #fff;
   border-radius: 10px;
   padding: 2rem 2rem;
   display: flex;

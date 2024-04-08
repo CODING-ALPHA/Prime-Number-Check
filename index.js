@@ -17,13 +17,19 @@ function isPrime(number) {
   }
   return true;
 }
-
 checkBtn.addEventListener("click", function () {
   const number = input.value;
+
   const isPrimeResult = isPrime(number);
   result.textContent = `${number} is ${
     isPrimeResult ? "" : "not"
   } a prime number`;
+
+  // Input validation
+  if (isNaN(number)) {
+    console.log(88888);
+    // return; // Exit the function if input is not a number
+  }
 });
 
 clearBtn.addEventListener("click", function () {
